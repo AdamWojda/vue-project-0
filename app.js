@@ -50,6 +50,7 @@ new Vue({
             this.gameIsRunning = false;
             this.playerHealth = 100;
             this.monsterHealth = 100;
+            this.attacks = [];
         },
         monsterAttacks: function() {
             // Damage.
